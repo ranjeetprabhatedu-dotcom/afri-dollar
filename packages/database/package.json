@@ -14,7 +14,7 @@
   },
   "scripts": {
     "prebuild": "prisma generate",
-    "build": "tsc",
+    "build": "node init && tsc",
     "generate": "prisma generate",
     "migrate": "prisma migrate dev",
     "migrate:deploy": "prisma migrate deploy",
